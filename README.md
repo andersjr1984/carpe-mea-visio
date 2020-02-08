@@ -1,13 +1,14 @@
 # Carpe Mea Visio
 
-I have spent 
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have spent countless hours working on this project in order to help me get a job. Well, I now have a job and am releasing this project to the world to see what kind of monster you can create.
 
 This is a project with lots of awesome things! It includes:
 - Firebase Functions, Firestore, Extensions, and Hosting
 - React Hooks and Code Splitting
 - React Router
+- HTML5 Image Resizing (client-side image resizing is the best)
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 To get this project started, do the following:
 - Install the [Firebase CLI](https://firebase.google.com/docs/cli) on your machine
