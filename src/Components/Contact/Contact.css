@@ -1,0 +1,41 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin: 20px auto;
+  border: 1px #BC5F04 solid;
+  border-radius: 10px;
+}
+
+.contact .contact-container {
+  min-height: 200px;
+  min-width: 200px;
+}
+
+.contact .about,
+.contact .contact-container {
+  width: 48%;
+  margin: 10px auto 10px auto;
+  padding: 8px;
+  text-align: left;
+}
+
+.about img {
+  width: 50%;
+  margin-right: 5px;
+}
+
+.contact-form .form-group {
+  width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact .about,
+  .contact .contact-container {
+    width: 100%;
+  }
+}

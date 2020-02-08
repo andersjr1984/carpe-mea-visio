@@ -1,0 +1,33 @@
+.preview-image {
+  max-height: 400px;
+  margin: 5px;
+}
+
+.preview-image .image-holder {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-image .form-group {
+  margin: auto;
+}
+
+.add-image input {
+  display: none;
+}
+
+.add-image button label {
+  margin: 0;
+}
+
+.add-image button label:hover {
+  cursor: pointer;
+}
+
+img.preview {
+  max-height: 80%;
+  max-width: 80%;
+}

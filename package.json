@@ -1,0 +1,62 @@
+{
+  "name": "carpe-mea-visio",
+  "author": {
+    "name": "Jason Anderson",
+    "email": "admin@carpemeavisio.com"
+  },
+  "homepage": "https://carpemeavisio.com",
+  "keywords": [
+    "digital",
+    "vision board",
+    "roadmap"
+  ],
+  "description": "Define your goals and keep track of your improvements!",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "bootstrap": "^4.3.1",
+    "d3": "^5.12.0",
+    "firebase": "^6.2.4",
+    "react": "^16.11.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-bootstrap-typeahead": "^3.4.7",
+    "react-datepicker": "^2.9.6",
+    "react-dom": "^16.11.0",
+    "react-helmet": "^5.2.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "firebase deploy --only hosting",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy-functions": "cd functions && npm run deploy",
+    "serve-functions": "firebase emulators:start --only functions"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  }
+}

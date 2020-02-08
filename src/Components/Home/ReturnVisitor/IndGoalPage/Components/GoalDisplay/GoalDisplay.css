@@ -1,0 +1,30 @@
+.req-ver:hover {
+  cursor: pointer;
+}
+
+.contributors td {
+  width: 50%;
+}
+
+.update-toggle {
+  margin-left: 1rem;
+}
+
+.update-toggle:hover {
+  cursor: pointer;
+}
+
+.update-status:hover {
+  cursor: pointer;
+  color: #BC5F04;
+}
+
+.goal-page form {
+  margin: 10px auto;
+}
+
+.goal-page #complete-goal:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #BC5F04;
+}

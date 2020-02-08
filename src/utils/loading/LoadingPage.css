@@ -1,0 +1,101 @@
+.loadingFullPage {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  left: 0;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  z-index:10;
+  color: #366822;
+}
+
+.loadingContained {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  z-index:10;
+  color: #366822;
+  margin: 10px auto;
+}
+
+.spinHolderPage {
+  max-width: 200px;
+  max-height: 200px;
+  width: 30vw;
+  height: 30vw;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.spinHolderIcon {
+  margin: auto;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  z-index:10;
+}
+
+.theSpins {
+  width: 100%;
+  height: 100%;
+}
+
+.theSpins .spinners {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.theSpins .secondary, .theSpins .tertiary {
+  margin-top: -100%;
+}
+
+.theSpins .initial {
+  border-top: thick solid #77B7B2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.theSpins .initial span {
+  animation: reverse-loading-spin infinite 5s linear;
+}
+
+.theSpins .secondary {
+  transform: rotate(120deg);
+  border-top: thick solid #366822;
+}
+
+.theSpins .tertiary {
+  transform: rotate(240deg);
+  border-top: thick solid #9C7561;
+}
+
+.theSpins {
+  animation: loading-spin infinite 5s linear;
+}
+
+@keyframes loading-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+@keyframes reverse-loading-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg)
+  }
+}

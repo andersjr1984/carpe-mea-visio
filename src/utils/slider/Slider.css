@@ -1,0 +1,19 @@
+div.slider {
+  height: 40px;
+  border-radius: 20px;
+  margin: 0 auto 5px auto;
+}
+
+div.slider:hover {
+  cursor: pointer;
+}
+
+div.circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+div.slider div.circle {
+  transition: margin .5s;
+}

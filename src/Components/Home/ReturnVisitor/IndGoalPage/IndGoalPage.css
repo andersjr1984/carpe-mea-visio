@@ -1,0 +1,26 @@
+.goal-page .goal-responses{
+  margin-top: 1rem;
+}
+
+.vision-image .background-image {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 30%;
+}
+
+.goal-page .goal-responses .card-body,
+.goal-page .action-items .card-body {
+  text-align: left;
+}
+
+.vision-image {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -100;
+  top: 0;
+  left: 0;
+  background-color: black;
+}

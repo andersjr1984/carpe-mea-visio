@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Poiret+One&display=swap');
+
+.home {
+  width: 100%;
+  margin-top: 60px;
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 4rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .home {
+    width: 100%;
+  }
+
+  .home h1 {
+    font-size: 2rem;
+  }
+}

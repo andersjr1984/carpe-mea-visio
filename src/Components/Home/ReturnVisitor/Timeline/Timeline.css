@@ -1,0 +1,60 @@
+.goal-timeline {
+  display: flex;
+  flex-direction: row;
+}
+
+.goal-timeline .timeline,
+.goal-timeline .goal-preview {
+  width: 50%;
+}
+
+.change-view {
+  display: flex;
+  justify-content: space-between;
+}
+
+.change-view div {
+  width: 33%;
+}
+
+.change-view .left {
+  text-align: left;
+}
+
+.change-view .right {
+  text-align: right;
+}
+
+.change-view .change-loc:hover {
+  cursor: pointer;
+}
+
+.timeline path {
+  display: none;
+}
+
+.timeline circle:hover {
+  cursor: pointer;
+}
+
+.goal-preview {
+  margin: 10px;
+}
+
+.goal-preview img {
+  max-width: 100%;
+  max-height: 200px;
+  margin-bottom: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .goal-timeline {
+    flex-direction: column;
+  }
+
+  .goal-timeline .timeline,
+  .goal-timeline .goal-preview {
+    width: 100%;
+  }
+}

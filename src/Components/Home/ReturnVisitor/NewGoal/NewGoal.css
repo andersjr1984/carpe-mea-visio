@@ -1,0 +1,41 @@
+.new-goal div.date-picker-group,
+.new-goal div.add-image {
+  text-align: center;
+}
+
+.new-goal .form-group,
+.new-goal .con-list {
+  text-align: left;
+}
+
+.new-goal .con-list .row {
+  margin: 0 0 3px 0;
+  padding-bottom: 1px;
+  border-bottom: 1px solid grey;
+}
+
+.new-goal .con-list .row div {
+  padding: 0 0 0 2px;
+}
+
+.new-goal {
+  margin-bottom: 10px;
+}
+
+.new-goal .image-preview {
+  padding: 10px;
+  max-height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-goal .image-preview img {
+  height: 150px;
+  object-fit: contain;
+  padding-bottom: 5px;
+}
+
+.new-goal .image-preview button {
+  width: 150px;
+  margin: auto;
+}

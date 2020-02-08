@@ -1,0 +1,76 @@
+.dashboard {
+  display: flex;
+  flex-direction: row;
+}
+
+.dashboard #at-icon:hover {
+  cursor: pointer;
+  color: #BC5F04
+}
+
+.dashboard .sub-dashboard {
+  width: 50%;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px #BC5F04 solid;
+}
+
+.dashboard .dash-header {
+  display: flex;
+  margin-bottom: .5rem;
+}
+
+.dashboard .dash-header h3 {
+  width: calc(100% - 1.75rem);
+  margin: 0;
+}
+
+.dashboard .dash-header svg,
+.dashboard #hold {
+  width: 1.75rem;
+  height: 1.75rem;
+  margin: auto;
+}
+
+.dashboard #add-task,
+.dashboard #todoDisp {
+  position: absolute;
+  width: 100vw;
+  height: calc(100vh - 60px);
+  background: rgba(0,0,0,.8);
+  top: 60px;
+  right: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dashboard #closeWindow {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.dashboard #closeWindow:hover {
+  cursor: pointer;
+  color: #BC5F04;
+}
+
+.dashboard #add-task form {
+  width: 95%;
+}
+
+.dashboard #to-do-table tbody tr:hover {
+  cursor: pointer;
+}
+
+#mark-complete:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #BC5F04;
+}

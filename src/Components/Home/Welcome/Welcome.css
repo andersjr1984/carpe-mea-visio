@@ -1,0 +1,124 @@
+.home div.main {
+  display: flex;
+  height: calc(50vh - 30px);
+  overflow: hidden;
+}
+
+.home div.how-to {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #BC5F04;
+}
+
+.home div.how-to a {
+  text-decoration: none;
+  color: #BC5F04;
+}
+
+.home div.how-to a:hover {
+  color: #010001;
+}
+
+.home div.introduction {
+  height: calc(100vh - 60px);
+}
+
+.home div.left {
+  flex-direction: row;
+}
+
+.home div.left div.details {
+  background-color: #FFFCF2;
+  color: #BC5F04;
+}
+
+.home div.right div.details {
+  background-color: #BC5F04;
+  color: #FFFCF2;
+}
+
+.home div.right {
+  flex-direction: row-reverse;
+}
+
+.home div.main div.title, 
+.home div.main div.details {
+  display: flex;
+  width: 50%;
+}
+
+div.home div.introduction div.background {
+  height: calc(100vh - 60px);
+  width: 50vw;
+}
+
+.home div.main div.background {
+  height: calc(50vh - 30px);
+  width: 50vw;
+}
+
+.home div.main div.title {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(1,0,1,.6);
+  color: #FFFCF2;
+}
+
+.home div.main div.details {
+  align-items: center;
+  text-align: left;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.home div.background {
+  position: absolute;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 800px) {
+  .home div.right,
+  .home div.left {
+    flex-direction: column;
+    overflow: hidden;
+    height: calc(50vh - 30px);
+  }
+
+  div.home div.introduction {
+    height: calc(100vh - 60px);
+  }
+  
+  .home div.main p {
+    text-align: center;
+  }
+
+  .home div.main div.title, 
+  .home div.main div.details,
+  div.home div.main div.background {
+    width: 100%;
+  }
+
+  .home div.main div.background {
+    height: calc(50% - 30px);
+  }
+
+  .home div.main div.title, 
+  .home div.main div.details {
+    height: 50vh;
+    background-color: rgba(1,0,1,.6);
+    color: white;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .home h1 {
+    font-size: 2rem;
+  }
+}
